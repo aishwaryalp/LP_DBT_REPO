@@ -40,3 +40,10 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+<<<<<<< HEAD
+=======
+    dim:
+      +materialized: table
+    src:
+      +materialized: ephemeral
+>>>>>>> 33a65bb9615538982ac95c360e25c007241f18f6
